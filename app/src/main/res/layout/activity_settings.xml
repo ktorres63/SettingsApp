@@ -41,7 +41,7 @@
         </LinearLayout>
 
         <com.google.android.material.switchmaterial.SwitchMaterial
-            android:id="@+id/SwitchDarkMode"
+            android:id="@+id/switchDarkMode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp" />
@@ -82,7 +82,7 @@
         </LinearLayout>
 
         <com.google.android.material.switchmaterial.SwitchMaterial
-            android:id="@+id/SwitchBluetooth"
+            android:id="@+id/switchBluetooth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp" />
@@ -115,10 +115,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Activar Bluetooth"
+                android:text="Subir el volumen"
                 android:textColor="@color/black" />
 
             <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rsVolumen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:valueFrom ="0"
@@ -153,7 +154,7 @@
 
 
         <com.google.android.material.switchmaterial.SwitchMaterial
-            android:id="@+id/SwitchVibration"
+            android:id="@+id/switchVibration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp" />
